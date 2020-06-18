@@ -178,22 +178,22 @@ header {
 
 .aboutlearngaroo {
   padding-top: 60px;
-  color: #fff; }
+  color: #ccc; }
 
 .quick {
   padding-top: 60px;
-  color: #fff; }
+  color: #888; }
   .quick a {
-    color: #fff; }
+    color: #888; }
 
 .social {
   padding-top: 60px;
-  color: #fff; }
+  color: #888; }
   .social li {
     list-style: none; }
   .social a {
     font-size: 18px;
-    color: #fff;
+    color: #888;
     text-decoration: none; }
   .social i {
     color: orange; }
@@ -202,12 +202,13 @@ header {
 
 .find {
   padding-top: 60px;
-  color: #fff; }
+  color: #888; }
   .find i {
     color: orange; }
 
 .bg-dark {
-  background-color: #111111 !important; }
+  background-color: #111111 !important;
+  color: #888 !important; }
 
 .contact-image {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/class.jpg);
