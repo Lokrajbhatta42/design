@@ -74,8 +74,8 @@ header {
     margin-top: 10px; } }
 .circle {
   display: inline-block;
-  width: 160px;
-  height: 160px;
+  width: 162px;
+  height: 162px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #666;
@@ -84,13 +84,16 @@ header {
   padding: 55px 24px 0 20px;
   position: relative; }
 
+.circlemargin {
+  margin-left: 20px; }
+
 .circle1 {
   color: #ffffff;
   width: 70px;
   height: 70px;
   line-height: 70px;
   top: -12%;
-  left: 55%;
+  left: 57%;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 18px;
   background-color: #E04F00;

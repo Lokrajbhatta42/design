@@ -121,8 +121,8 @@ header{
 
 .circle {
     display: inline-block;
-    width: 160px;
-    height: 160px;
+    width: 162px;
+    height: 162px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #666;
@@ -133,13 +133,17 @@ header{
     
    
 }
+.circlemargin{
+	margin-left: 20px;
+
+}
 .circle1{
 	color: $fcolor;
 	width: 70px;
 	height: 70px;
 	line-height: 70px;
 	top:-12%;
-	left:55%;
+	left:57%;
 	font-family: "Raleway", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	background-color: #E04F00;
@@ -148,6 +152,16 @@ header{
 	font-weight: 700;
 
 }
+@media only screen and (max-width: 1268px) {
+  .circle {
+  	
+    
+  }
+}
+
+
+
+
 .favicon{
 	font-size: 40px;
 	color: $brand;
