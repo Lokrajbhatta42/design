@@ -26,3 +26,6 @@ $('.count').counterUp({
     delay: 9,
     time: 1000
 });
+
+
+
