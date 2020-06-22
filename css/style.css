@@ -74,7 +74,7 @@ header {
     margin-top: 10px; } }
 .achivements {
   margin: auto;
-  padding-top: 20px; }
+  padding: 30px 0; }
 
 .circle1, .circle2, .circle3, .circle4, .circle5 {
   display: inline-block;
@@ -267,7 +267,6 @@ header {
     display: block !important; }
 
   .circle1 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -283,7 +282,6 @@ header {
       font-size: 22px; }
 
   .circle2 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -299,7 +297,6 @@ header {
       font-size: 22px; }
 
   .circle3 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -331,7 +328,6 @@ header {
       font-size: 22px; }
 
   .circle5 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -374,7 +370,6 @@ header {
     display: block !important; }
 
   .circle1 {
-    display: inline-block;
     width: 120px;
     height: 120px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -390,7 +385,6 @@ header {
       font-size: 20px; }
 
   .circle2 {
-    display: inline-block;
     width: 120px;
     height: 120px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -406,7 +400,6 @@ header {
       font-size: 20px; }
 
   .circle3 {
-    display: inline-block;
     width: 120px;
     height: 120px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -422,7 +415,6 @@ header {
       font-size: 20px; }
 
   .circle4 {
-    display: inline-block;
     width: 120px;
     height: 120px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -438,7 +430,6 @@ header {
       font-size: 20px; }
 
   .circle5 {
-    display: inline-block;
     width: 120px;
     height: 120px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -473,7 +464,6 @@ header {
     height: 800px; }
 
   .circle1 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -488,7 +478,6 @@ header {
     left: 20%; }
 
   .circle2 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -503,7 +492,6 @@ header {
     left: 20%; }
 
   .circle3 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -518,7 +506,6 @@ header {
     left: 20%; }
 
   .circle4 {
-    display: inline-block;
     width: 125px;
     height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
