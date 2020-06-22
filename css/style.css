@@ -270,8 +270,8 @@ header {
 
   .circle1 {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #666;
@@ -280,14 +280,14 @@ header {
     padding: 35px 24px 0 20px;
     position: absolute;
     top: 10%;
-    left: 33%; }
+    left: 37%; }
     .circle1 i {
-      font-size: 20px; }
+      font-size: 22px; }
 
   .circle2 {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #666;
@@ -296,14 +296,14 @@ header {
     padding: 35px 24px 0 20px;
     position: absolute;
     top: 40%;
-    left: 18%; }
+    left: 14%; }
     .circle2 i {
-      font-size: 20px; }
+      font-size: 22px; }
 
   .circle3 {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #666;
@@ -314,12 +314,12 @@ header {
     top: 40%;
     left: 55%; }
     .circle3 i {
-      font-size: 20px; }
+      font-size: 22px; }
 
   .circle4 {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #666;
@@ -328,14 +328,14 @@ header {
     padding: 35px 24px 0 20px;
     position: absolute;
     top: 70%;
-    left: 18%; }
+    left: 14%; }
     .circle4 i {
-      font-size: 20px; }
+      font-size: 22px; }
 
   .circle5 {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #666;
@@ -346,7 +346,7 @@ header {
     top: 70%;
     left: 55%; }
     .circle5 i {
-      font-size: 20px; }
+      font-size: 22px; }
 
   .circle0 {
     color: #ffffff;
@@ -387,7 +387,7 @@ header {
     padding: 35px 24px 0 20px;
     position: absolute;
     top: 15%;
-    left: 20%; }
+    left: 33%; }
     .circle1 i {
       font-size: 20px; }
 
