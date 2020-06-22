@@ -384,7 +384,8 @@ p{
 
 	.achivements{
 margin: auto;
-width: 100%;
+height: 500px;
+padding-top:80px; 
 
 }
 
@@ -405,7 +406,7 @@ width: 100%;
     position:absolute;
 
     top: 10%;
-    left: 39%;
+    left: 33%;
     i{
     	font-size: 20px;
     }
@@ -426,8 +427,8 @@ width: 100%;
     padding: 35px 24px 0 20px;
     position:absolute;
 
-    top: 30%;
-    left: 20%;
+    top: 40%;
+    left: 18%;
     i{
 
     	font-size: 20px;
@@ -448,8 +449,8 @@ width: 100%;
     padding: 35px 24px 0 20px;
     position:absolute;
 
-    top: 30%;
-    left: 60%;
+    top: 40%;
+    left: 55%;
     i{
     	font-size: 20px;
     }
@@ -469,8 +470,8 @@ width: 100%;
     padding: 35px 24px 0 20px;
     position:absolute;
 
-    top: 50%;
-    left: 20%;
+    top: 70%;
+    left: 18%;
 
     i{
     font-size: 20px;
@@ -492,8 +493,8 @@ width: 100%;
     padding: 35px 24px 0 20px;
     position:absolute;
 
-    top: 50%;
-    left: 60%;
+    top: 70%;
+    left: 55%;
     i{
     	font-size: 20px;
     }
@@ -551,7 +552,7 @@ margin: auto;
     position:absolute;
 
     top: 15%;
-    left: 29%;
+    left: 20%;
     i{
     	font-size: 20px;
     }
@@ -671,6 +672,11 @@ margin: auto;
 }
 @media only screen and (max-width: 312px){
 
+	.achivements{
+		margin: auto;
+		height: 800px;
+	}
+
 .circle1{
     display: inline-block;
     width: 125px;
@@ -761,6 +767,7 @@ margin: auto;
 
 
 	}
+
 
 
 
