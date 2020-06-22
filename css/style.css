@@ -361,12 +361,19 @@ header {
     border-radius: 50%;
     font-weight: 700;
     text-align: center; } }
-@media only screen and (max-width: 362px) {
+@media only screen and (max-width: 350px) {
   .flex-container {
     display: flex;
     flex-direction: column; }
 
-  .circle1, .circle2, .circle3, .circle4, .circle5 {
+  .achivements {
+    margin: auto;
+    position: relative; }
+
+  .flex-container {
+    display: block !important; }
+
+  .circle1 {
     display: inline-block;
     width: 120px;
     height: 120px;
@@ -376,10 +383,169 @@ header {
     border: 6px solid #199EB8;
     border-radius: 50%;
     padding: 35px 24px 0 20px;
+    position: absolute;
+    top: 10%;
+    left: 39%; }
+    .circle1 i {
+      font-size: 20px; }
+
+  .circle2 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: absolute;
+    top: 30%;
+    left: 20%; }
+    .circle2 i {
+      font-size: 20px; }
+
+  .circle3 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: absolute;
+    top: 30%;
+    left: 60%; }
+    .circle3 i {
+      font-size: 20px; }
+
+  .circle4 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 20%; }
+    .circle4 i {
+      font-size: 20px; }
+
+  .circle5 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 60%; }
+    .circle5 i {
+      font-size: 20px; }
+
+  .circle0 {
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    top: -12%;
+    left: 57%;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #E04F00;
+    position: absolute;
+    border-radius: 50%;
+    font-weight: 700;
+    text-align: center; } }
+@media only screen and (max-width: 312px) {
+  .circle1 {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
     position: relative;
     text-align: center;
-    top: 0;
-    left: 0; } }
+    top: 10%;
+    left: 20%; }
+
+  .circle2 {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    left: 20%; }
+
+  .circle3 {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    left: 20%; }
+
+  .circle4 {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: relative;
+    text-align: center;
+    top: 25%;
+    left: 20%; }
+
+  .circle5 {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #666;
+    border: 6px solid #199EB8;
+    border-radius: 50%;
+    padding: 35px 24px 0 20px;
+    position: relative;
+    text-align: center;
+    top: 30%;
+    left: 20%; }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column; } }
 .favicon {
   font-size: 40px;
   color: #154360;
