@@ -74,9 +74,7 @@ header {
     margin-top: 10px; } }
 .achivements {
   margin: auto;
-  padding-top: 20px;
-  width: 100%;
-  height: auto; }
+  padding-top: 20px; }
 
 .circle1, .circle2, .circle3, .circle4, .circle5 {
   display: inline-block;
@@ -168,7 +166,7 @@ header {
     padding: 50px 24px 0 20px;
     position: absolute;
     top: 10%;
-    left: 39%; }
+    left: 40%; }
     .circle1 i {
       font-size: 40px; }
     .circle1 p {
@@ -186,7 +184,7 @@ header {
     padding: 50px 24px 0 20px;
     position: absolute;
     top: 35%;
-    left: 20%; }
+    left: 10%; }
     .circle2 i {
       font-size: 40px; }
     .circle2 p {
@@ -222,7 +220,7 @@ header {
     padding: 50px 24px 0 20px;
     position: absolute;
     top: 60%;
-    left: 20%; }
+    left: 10%; }
     .circle4 i {
       font-size: 40px; }
     .circle4 p {
