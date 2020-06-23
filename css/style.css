@@ -631,7 +631,9 @@ header {
     height: auto;
     padding-bottom: 10px !important; }
     .box h3 {
-      font-size: 12px; } }
+      font-size: 12px; }
+    .box p {
+      display: none; } }
 @media only screen and (max-width: 300px) {
   .flex-container {
     display: flex;
