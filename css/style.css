@@ -5,7 +5,7 @@ header {
 
 .image-responsive {
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   height: auto; }
 
 .headercontent {
@@ -560,7 +560,7 @@ header {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
-  background: #199EB8;
+  background: #0083ff;
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -577,7 +577,7 @@ header {
 .box {
   width: 33%;
   height: 300px;
-  background-color: lightblue;
+  background-color: #f0fdff;
   padding: 25px;
   border-radius: 15px;
   margin-bottom: 20px; }
