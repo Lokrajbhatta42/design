@@ -641,6 +641,12 @@ header {
 
   .box p {
     display: none; } }
+.item {
+  width: 100% !important;
+  height: auto;
+  padding: 20px;
+  margin: 40px 0; }
+
 .ed_pricing_table {
   width: 100%;
   text-align: center;
@@ -660,6 +666,27 @@ header {
   .ed_pricing_table button {
     text-align: right; }
   .ed_pricing_table a {
+    text-decoration: none; }
+
+.ed_pricing_table1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px 0;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+  transition: all .5s; }
+  .ed_pricing_table1 span {
+    color: #d47723;
+    font-size: 22px; }
+  .ed_pricing_table1 p {
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 20px; }
+  .ed_pricing_table1 button {
+    text-align: right; }
+  .ed_pricing_table1 a {
     text-decoration: none; }
 
 .ed_pricing_table:hover {
