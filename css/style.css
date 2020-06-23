@@ -3,6 +3,11 @@ header {
   height: 100vh;
   background-size: cover; }
 
+.image-responsive {
+  width: 100%;
+  max-width: 300px;
+  height: auto; }
+
 .headercontent {
   color: #ffffff;
   padding-top: 130px; }
@@ -615,7 +620,7 @@ header {
   .feature-icon {
     width: 70px;
     height: 70px;
-    font-size: 20px; }
+    font-size: 23px; }
 
   .left {
     float: left; }
