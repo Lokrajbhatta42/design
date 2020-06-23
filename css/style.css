@@ -550,9 +550,6 @@ header {
   .feature h2 {
     color: #0c4f5c;
     font-family: 'Sriracha', cursive; }
-  .feature h3 {
-    color: #0c4f5c;
-    font-family: 'Sriracha', cursive; }
 
 .feature-icon {
   width: 70px;
@@ -572,6 +569,76 @@ header {
 .banner {
   background: #86b3d2; }
 
+.box {
+  width: 33%;
+  height: 300px;
+  background-color: lightblue;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px; }
+  .box h2 {
+    color: #0c4f5c;
+    font-family: 'Sriracha', cursive; }
+  .box h3 {
+    color: #0c4f5c;
+    font-family: 'Sriracha', cursive; }
+
+@media only screen and (max-width: 994px) {
+  h2 {
+    font-size: 25px; }
+
+  .box {
+    height: 350px; }
+    .box h3 {
+      font-size: 22px; }
+    .box p {
+      font-size: 14px; } }
+@media only screen and (max-width: 773px) {
+  .box {
+    height: 350px;
+    width: 20% h3;
+      width-font-size: 20px; }
+    .box p {
+      font-size: 14px; }
+
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 20px; } }
+@media only screen and (max-width: 769px) {
+  h2 {
+    font-size: 18px; }
+
+  .flex-container {
+    display: none; }
+
+  .feature-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 20px; }
+
+  .left {
+    float: left; }
+
+  .clearfixx {
+    clear: both; }
+
+  .box {
+    width: 33%;
+    border-radius: 0;
+    padding-top: 0px;
+    background-color: transparent;
+    height: auto;
+    padding-bottom: 10px !important; }
+    .box h3 {
+      font-size: 12px; } }
+@media only screen and (max-width: 300px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column; }
+
+  .box p {
+    display: none; } }
 .ed_pricing_table {
   width: 100%;
   text-align: center;
