@@ -673,6 +673,27 @@ header {
   .ed_pricing_table a {
     text-decoration: none; }
 
+@media only screen and (min-width: 599px) {
+  .item {
+    display: none !important; }
+
+  .owl-carousel {
+    display: none; }
+
+  .owl-theme {
+    display: none; }
+
+  .owl-nav {
+    display: none; }
+
+  .owl-dots {
+    display: none; }
+
+  .ed_pricing_table1 {
+    display: none; } }
+@media only screen and (max-width: 598px) {
+  .ed_pricing_table {
+    display: none; } }
 .ed_pricing_table1 {
   width: 100%;
   text-align: center;
