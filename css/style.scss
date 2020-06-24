@@ -942,13 +942,13 @@ font-size: 23px;
 .item{
 width: 100% !important;
 height: auto;
-padding:20px;
+padding:20px 0 0 0;
 margin: 40px 0;
 
 }
 
 
-.ed_pricing_table{
+.ed_pricing_table,.ed_price_table2{
 
 	width: 100%;
     text-align: center;
