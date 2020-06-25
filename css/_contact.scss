@@ -1,0 +1,47 @@
+.bg-dark{
+	background-color:#111111 !important;
+	color:#888 !important;
+}
+.contact-image{
+	background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/class.jpg);
+	background-size: contain;
+	height:30vh; 
+	position: sticky;
+	top:10;
+
+	h2{
+		padding: 120px 0 15px 60px;
+		color: #fff;
+		font-size: 40px;
+
+	}
+}
+.contact-info{
+	background-color: #f7f7f7;
+	h3{
+		padding: 80px 30px 10px 40px;
+
+	}
+	p{
+		color: #737581;
+		padding-left:40px;
+	}
+	a{
+		color: #5499c7;
+	}
+	a:hover{
+		color: orange;
+	}
+}
+.map{
+	iframe{
+		width: 100%;
+		height: 400px;
+	}
+
+
+}
+.navb{
+	text-decoration: none;
+	color: #fff;
+}

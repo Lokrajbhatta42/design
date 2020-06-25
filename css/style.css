@@ -74,9 +74,6 @@ header {
   z-index: 889;
   box-shadow: 5px 10px 18px #888888; }
 
-@media only screen and (max-width: 767px) {
-  .enroll {
-    margin-top: 10px; } }
 .achivements {
   margin: auto;
   padding: 30px 0; }
@@ -652,6 +649,12 @@ header {
   padding: 20px 0 0 0;
   margin: 40px 0; }
 
+.item {
+  width: 100% !important;
+  height: auto;
+  padding: 20px 0 0 0;
+  margin: 40px 0; }
+
 .ed_pricing_table, .ed_pricing_table2 {
   width: 100%;
   text-align: center;
@@ -715,7 +718,12 @@ header {
   .ed_pricing_table1 a {
     text-decoration: none; }
 
-.ed_pricing_table, .ed_pricing_table2:hover {
+.ed_pricing_table:hover {
+  border: 0.5px solid  #e1e1e1;
+  box-shadow: 5px 10px 18px #888888;
+  transform: scale(1.1); }
+
+.ed_pricing_table2:hover {
   border: 0.5px solid  #e1e1e1;
   box-shadow: 5px 10px 18px #888888;
   transform: scale(1.1); }
@@ -728,6 +736,44 @@ header {
 
 .ed_pricing_table button a:hover {
   color: #ffffff; }
+
+.bg-lighter {
+  background-color: #ece8d9; }
+
+.bg-dark {
+  background-color: #111111 !important;
+  color: #888 !important; }
+
+.contact-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/class.jpg);
+  background-size: contain;
+  height: 30vh;
+  position: sticky;
+  top: 10; }
+  .contact-image h2 {
+    padding: 120px 0 15px 60px;
+    color: #fff;
+    font-size: 40px; }
+
+.contact-info {
+  background-color: #f7f7f7; }
+  .contact-info h3 {
+    padding: 80px 30px 10px 40px; }
+  .contact-info p {
+    color: #737581;
+    padding-left: 40px; }
+  .contact-info a {
+    color: #5499c7; }
+  .contact-info a:hover {
+    color: orange; }
+
+.map iframe {
+  width: 100%;
+  height: 400px; }
+
+.navb {
+  text-decoration: none;
+  color: #fff; }
 
 .bg-lighter {
   background-color: #ece8d9; }
@@ -771,37 +817,6 @@ header {
 .bg-dark {
   background-color: #111111 !important;
   color: #888 !important; }
-
-.contact-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/class.jpg);
-  background-size: contain;
-  height: 30vh;
-  position: sticky;
-  top: 10; }
-  .contact-image h2 {
-    padding: 120px 0 15px 60px;
-    color: #fff;
-    font-size: 40px; }
-
-.contact-info {
-  background-color: #f7f7f7; }
-  .contact-info h3 {
-    padding: 80px 30px 10px 40px; }
-  .contact-info p {
-    color: #737581;
-    padding-left: 40px; }
-  .contact-info a {
-    color: #5499c7; }
-  .contact-info a:hover {
-    color: orange; }
-
-.map iframe {
-  width: 100%;
-  height: 400px; }
-
-.navb {
-  text-decoration: none;
-  color: #fff; }
 
 #myBtn {
   display: none;
