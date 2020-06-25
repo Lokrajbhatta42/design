@@ -730,6 +730,9 @@ header {
 
 @media only screen and (max-width: 470px) {
   .ed_pricing_table:hover {
+    transform: scale(1); }
+
+  .ed-pricing_table2:hover {
     transform: scale(1); } }
 .ed_pricing_table button:hover {
   background-color: #b40018; }
