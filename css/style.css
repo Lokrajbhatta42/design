@@ -1,6 +1,6 @@
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/cover.jpg);
-  height: 100vh;
+  height: 87vh;
   background-size: cover; }
 
 .image-responsive {
@@ -10,7 +10,7 @@ header {
 
 .headercontent {
   color: #ffffff;
-  padding-top: 130px; }
+  padding-top: 100px; }
   .headercontent h1 {
     font-size: 60px;
     padding-top: 40px; }
@@ -27,6 +27,9 @@ header {
     color: #ffffff;
     text-decoration: none; }
 
+@media all and (max-width: 600px) {
+  .headercontent h1 {
+    font-size: 40px; } }
 .bg-light {
   background-color: #154360 !important; }
 
@@ -655,7 +658,7 @@ header {
   padding: 20px 0 0 0;
   margin: 40px 0; }
 
-.ed_pricing_table, .ed_pricing_table2 {
+.ed_pricing_table, .ed_pricing_table1, .ed_pricing_table2 {
   width: 100%;
   text-align: center;
   margin-bottom: 60px;
@@ -664,16 +667,16 @@ header {
   border: 1px solid #e1e1e1;
   background-color: #fff;
   transition: all .5s; }
-  .ed_pricing_table span, .ed_pricing_table2 span {
+  .ed_pricing_table span, .ed_pricing_table1 span, .ed_pricing_table2 span {
     color: #d47723;
     font-size: 22px; }
-  .ed_pricing_table p, .ed_pricing_table2 p {
+  .ed_pricing_table p, .ed_pricing_table1 p, .ed_pricing_table2 p {
     text-align: left;
     padding-left: 40px;
     margin-bottom: 20px; }
-  .ed_pricing_table button, .ed_pricing_table2 button {
+  .ed_pricing_table button, .ed_pricing_table1 button, .ed_pricing_table2 button {
     text-align: right; }
-  .ed_pricing_table a, .ed_pricing_table2 a {
+  .ed_pricing_table a, .ed_pricing_table1 a, .ed_pricing_table2 a {
     text-decoration: none; }
 
 @media only screen and (min-width: 599px) {
@@ -695,30 +698,9 @@ header {
   .ed_pricing_table1 {
     display: none; } }
 @media only screen and (max-width: 598px) {
-  .ed_pricing_table {
+  .ed_pricing_table, .ed_pricing_table1 {
     display: none; } }
-.ed_pricing_table1 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding: 20px 0;
-  border: 1px solid #e1e1e1;
-  background-color: #fff;
-  transition: all .5s; }
-  .ed_pricing_table1 span {
-    color: #d47723;
-    font-size: 22px; }
-  .ed_pricing_table1 p {
-    text-align: left;
-    padding-left: 40px;
-    margin-bottom: 20px; }
-  .ed_pricing_table1 button {
-    text-align: right; }
-  .ed_pricing_table1 a {
-    text-decoration: none; }
-
-.ed_pricing_table:hover {
+.ed_pricing_table:hover, .ed_pricing_table1:hover {
   border: 0.5px solid  #e1e1e1;
   box-shadow: 5px 10px 18px #888888;
   transform: scale(1.1); }
@@ -729,15 +711,15 @@ header {
   transform: scale(1.1); }
 
 @media only screen and (max-width: 470px) {
-  .ed_pricing_table:hover {
+  .ed_pricing_table:hover, .ed_pricing_table1:hover {
     transform: scale(1); }
 
   .ed-pricing_table2:hover {
     transform: scale(1); } }
-.ed_pricing_table button:hover {
+.ed_pricing_table button:hover, .ed_pricing_table1 button:hover {
   background-color: #b40018; }
 
-.ed_pricing_table button a:hover {
+.ed_pricing_table button a:hover, .ed_pricing_table1 button a:hover {
   color: #ffffff; }
 
 .bg-lighter {

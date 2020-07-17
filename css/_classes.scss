@@ -69,31 +69,7 @@ margin: 40px 0;
 
 
 .ed_pricing_table1 {
-
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top:20px;
-    padding:20px 0;
-    border: 1px solid #e1e1e1;
-    background-color: #fff;
-    transition: all .5s;
-    span{
-        color: #d47723;
-        font-size: 22px;
-    }
-    p{
-        text-align: left;
-        padding-left:40px;
-        margin-bottom:20px;
-    }
-    button{
-        text-align:right;
-
-    }
-    a{
-        text-decoration: none;
-    }
+@extend .ed_pricing_table;
 }
 .ed_pricing_table:hover{
         border: 0.5px solid  #e1e1e1; 

@@ -3,7 +3,7 @@
 header{
 
 	background:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/cover.jpg) ;
-	height: 100vh;
+	height: 87vh;
 	background-size: cover;
 
 	
@@ -17,7 +17,7 @@ header{
 .headercontent{
 
 	color: $fcolor;
-	padding-top: 130px;
+	padding-top: 100px;
 
 	h1{
 
@@ -44,6 +44,16 @@ header{
 		color: $fcolor;
 		text-decoration: none;
 	}
+}
+
+
+@media all and (max-width: 600px){
+.headercontent{
+
+h1{
+	font-size: 40px;
+}
+}
 }
 
 .bg-light{
